@@ -6746,7 +6746,7 @@ location_data_table: Dict[str, MMRLocationData] = {
 
     "Ikana Castle Grass (1)": MMRLocationData(
         region="Ikana Castle",
-        address=0x3469420121D00,
+        address=0x3469420121D0B,
         can_create=lambda options: options.grasssanity.value
     ),
     "Ikana Castle Grass (2)": MMRLocationData(
@@ -6756,7 +6756,7 @@ location_data_table: Dict[str, MMRLocationData] = {
     ),
     "Ikana Castle Grass (3)": MMRLocationData(
         region="Ikana Castle",
-        address=0x3469420121D0B,
+        address=0x3469420121D02,
         can_create=lambda options: options.grasssanity.value
     ),
     "Ikana Castle Grass (4)": MMRLocationData(
@@ -13754,34 +13754,42 @@ location_data_table: Dict[str, MMRLocationData] = {
     "Pirates' Fortress Sewers Barrel (14)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x34694202223BD,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Barrel (15)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x34694202223BE,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Barrel (16)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x34694202223BF,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Exit Barrel (1)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x3469420222390,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Exit Barrel (2)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x3469420222391,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Exit Barrel (3)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x3469420222392,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Exit Barrel (4)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x3469420222393,
+        can_create=lambda options: options.woodsanity.value
     ),
     "Pirates' Fortress Sewers Exit Barrel (5)": MMRLocationData(
         region="Pirates' Fortress Sewers",
         address=0x3469420222394,
+        can_create=lambda options: options.woodsanity.value
     ),                                                                
     # Pirates Fortress Interior Crates
     "Pirates Fortress' Interior Crates (0)": MMRLocationData(
@@ -14855,7 +14863,7 @@ location_data_table: Dict[str, MMRLocationData] = {
     ),
     "Goron Trial 2nd Gazebo Gossip (1)": MMRLocationData(
         region="The Moon",
-        address=0x34694201F000D,
+        address=0x34694201F3F0D,
         can_create=lambda options: options.realfairysanity.value
     ),
     "Goron Trial Near Heart Piece Gossip (1)": MMRLocationData(
@@ -16419,11 +16427,6 @@ location_data_table: Dict[str, MMRLocationData] = {
         address=0x34694203F1B62,
         can_create=lambda options: options.flowersanity.value
     ),
-    "Woodfall Temple Snapping Turtle Flower (3)": MMRLocationData(
-        region="Woodfall Temple",
-        address=0x34694203F1B62,
-        can_create=lambda options: options.flowersanity.value
-    ),
     "Woodfall Temple Gekko Flower (1)": MMRLocationData(
         region="Woodfall Temple",
         address=0x34694203F1B80,
@@ -17267,6 +17270,12 @@ location_data_table: Dict[str, MMRLocationData] = {
         address=0x34694202F664F,
         can_create=lambda options: options.oneoffs.value,
     ),
+    "Goron Trial Chests": MMRLocationData(
+        region="The Moon",
+        address=0x3469420063F00,
+        can_create=lambda options: options.oneoffs.value,
+    ),
+
         # 100% Completion
     "Majora's Soul": MMRLocationData(
         region="Clock Town",
